@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="MasterClass"/>
+	<classpathentry kind="src" path="EstructuraDeControl"/>
+	<classpathentry kind="src" path="Ejer_EstructurasDeSeleccion"/>
+	<classpathentry kind="src" path="FeedBack_Entregables"/>
+	<classpathentry kind="src" path="Ejer_EstDeControl"/>
+	<classpathentry kind="src" path="Ejer_Arrays"/>
+	<classpathentry kind="src" path="Ejer_POO"/>
+	<classpathentry kind="src" path="Array"/>
+	<classpathentry kind="src" path="POO_Avanzadas"/>
+	<classpathentry kind="src" path="Excepciones"/>
+	<classpathentry kind="src" path="Colecciones"/>
+	<classpathentry kind="src" path="Ejer_Colecciones"/>
+	<classpathentry kind="src" path="Ficheros"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,8 @@
+org\aartaraz\apiservlet\webapp\headers\controllers\ProductoServlet.class
+org\aartaraz\apiservlet\webapp\headers\services\LoginService.class
+org\aartaraz\apiservlet\webapp\headers\controllers\LogoutServlet.class
+org\aartaraz\apiservlet\webapp\headers\models\Producto.class
+org\aartaraz\apiservlet\webapp\headers\services\LoginServiceImpl.class
+org\aartaraz\apiservlet\webapp\headers\services\ProductoServiceImpl.class
+org\aartaraz\apiservlet\webapp\headers\controllers\LoginServlet.class
+org\aartaraz\apiservlet\webapp\headers\services\ProductoService.class

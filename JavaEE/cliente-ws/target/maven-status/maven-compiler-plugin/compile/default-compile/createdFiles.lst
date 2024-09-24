@@ -1,0 +1,11 @@
+org\aartaraz\webapp\jaxws\services\ServicioWs.class
+org\aartaraz\webapp\jaxws\services\Listar.class
+org\aartaraz\webapp\jaxws\services\CrearResponse.class
+org\aartaraz\webapp\jaxws\services\ListarResponse.class
+org\aartaraz\webapp\jaxws\services\SaludarResponse.class
+org\aartaraz\webapp\jaxws\services\ServicioWsImplService.class
+org\aartaraz\webapp\jaxws\services\Curso.class
+org\aartaraz\webapp\jaxws\services\Saludar.class
+org\aartaraz\webapp\jaxws\services\Crear.class
+org\aartaraz\webapp\jaxws\services\package-info.class
+org\aartaraz\webapp\jaxws\services\ObjectFactory.class

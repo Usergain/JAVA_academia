@@ -1,0 +1,1374 @@
+2023-11-27 16:24:56,345 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2023-11-27 16:24:57,091 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2023-11-27 16:24:57,097 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-27 16:24:57,233 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
+2023-11-27 16:24:57,234 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.2
+	java.io.tmpdir = C:\Users\userg\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\Java\jdk-17.0.2\bin\java.exe;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\xampp\php;C:\mingw64\bin;C:\Program Files (x86)\BaseX\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.2.3;C:\Program Files\Git\cmd;C:\Users\userg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\bin;C:\Users\userg\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\userg\AppData\Roaming\npm;C:\Users\userg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\userg\apache-maven-3.9.5\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.2+8-86
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.2
+	java.version.date = 2022-01-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.2+8-86
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	jboss.host.name = arkaitxiki
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = arkaitxiki
+	jboss.qualified.host.name = arkaitxiki
+	jboss.server.base.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data
+	jboss.server.log.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log
+	jboss.server.name = arkaitxiki
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar -mp C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = ES
+	user.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\bin
+	user.home = C:\Users\userg
+	user.language = es
+	user.name = userg
+	user.script = 
+	user.timezone = Europe/Madrid
+	user.variant = 
+2023-11-27 16:24:57,236 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties 
+2023-11-27 16:24:58,154 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
+2023-11-27 16:24:58,847 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-27 16:24:58,939 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-27 16:24:58,957 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.11.Final
+2023-11-27 16:24:58,970 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.11.Final
+2023-11-27 16:24:59,013 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-27 16:24:59,024 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
+2023-11-27 16:24:59,038 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-27 16:24:59,043 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-27 16:24:59,046 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-27 16:24:59,046 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-27 16:24:59,058 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-27 16:24:59,082 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-27 16:24:59,087 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-27 16:24:59,107 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-11-27 16:24:59,137 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-11-27 16:24:59,229 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.10.Final starting
+2023-11-27 16:24:59,232 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
+2023-11-27 16:24:59,258 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2023-11-27 16:24:59,357 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-27 16:24:59,359 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-11-27 16:24:59,399 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-27 16:24:59,407 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-27 16:24:59,487 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-11-27 16:24:59,925 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-11-27 16:24:59,927 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-27 16:24:59,929 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-11-27 16:24:59,929 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-11-27 16:24:59,958 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "webapp-ejb.war" (runtime-name: "webapp-ejb.war")
+2023-11-27 16:24:59,966 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\deployments
+2023-11-27 16:24:59,999 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.27.Final
+2023-11-27 16:25:00,011 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-11-27 16:25:00,013 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2023-11-27 16:25:00,020 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2023-11-27 16:25:00,081 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-27 16:25:00,083 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-27 16:25:00,209 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-27 16:25:00,285 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2023-11-27 16:25:00,288 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-27 16:25:00,763 WARN  [org.jboss.modules.define] (MSC service thread 1-1) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:25:00,874 WARN  [org.jboss.modules.define] (MSC service thread 1-1) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:25:00,928 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment webapp-ejb.war
+2023-11-27 16:25:01,061 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.1.Final
+2023-11-27 16:25:01,233 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "webapp-ejb.war"' are as follows:
+
+	java:global/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:app/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:global/webapp-ejb/ServiceEjb
+	java:app/webapp-ejb/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 16:25:01,388 WARN  [org.jboss.modules.define] (MSC service thread 1-8) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:25:01,390 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 16:25:01,492 WARN  [org.jboss.modules.define] (MSC service thread 1-8) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:25:01,495 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.ScriptFreeTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 16:25:01,576 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 5.1.2 (Final)
+2023-11-27 16:25:01,974 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 6) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 16:25:01,976 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 6) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 16:25:01,995 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 3) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 16:25:01,997 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.ScriptFreeTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 16:25:02,637 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 93) WFLYUT0021: Registered web context: '/webapp-ejb' for server 'default-server'
+2023-11-27 16:25:02,709 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-ejb.war" (runtime-name : "webapp-ejb.war")
+2023-11-27 16:25:02,763 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-27 16:25:02,769 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-27 16:25:02,770 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-27 16:25:02,771 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 6932ms - Started 796 of 1015 services (322 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-27 16:25:37,337 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\e3\a6080011fa391003d8062a30ac92b8014e6ae5\content
+2023-11-27 16:25:37,341 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 16:25:37,393 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 16:25:37,424 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 16:25:37,780 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "appejb-remote.jar" (runtime-name : "appejb-remote.jar")
+2023-11-27 16:31:30,052 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment appejb-remote.jar (runtime-name: appejb-remote.jar) in 55ms
+2023-11-27 16:31:30,057 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 16:31:30,104 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 16:31:30,130 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 16:31:30,315 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "appejb-remote.jar" with deployment "appejb-remote.jar"
+2023-11-27 16:58:28,261 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2023-11-27 16:58:28,750 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2023-11-27 16:58:28,758 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-27 16:58:28,857 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
+2023-11-27 16:58:28,859 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.2
+	java.io.tmpdir = C:\Users\userg\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\Java\jdk-17.0.2\bin\java.exe;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\xampp\php;C:\mingw64\bin;C:\Program Files (x86)\BaseX\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.2.3;C:\Program Files\Git\cmd;C:\Users\userg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\bin;C:\Users\userg\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\userg\AppData\Roaming\npm;C:\Users\userg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\userg\apache-maven-3.9.5\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.2+8-86
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.2
+	java.version.date = 2022-01-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.2+8-86
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	jboss.host.name = arkaitxiki
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = arkaitxiki
+	jboss.qualified.host.name = arkaitxiki
+	jboss.server.base.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data
+	jboss.server.log.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log
+	jboss.server.name = arkaitxiki
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar -mp C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = ES
+	user.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\bin
+	user.home = C:\Users\userg
+	user.language = es
+	user.name = userg
+	user.script = 
+	user.timezone = Europe/Madrid
+	user.variant = 
+2023-11-27 16:58:28,861 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties 
+2023-11-27 16:58:29,537 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
+2023-11-27 16:58:30,159 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-27 16:58:30,245 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-27 16:58:30,259 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.11.Final
+2023-11-27 16:58:30,266 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.11.Final
+2023-11-27 16:58:30,298 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-27 16:58:30,304 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-27 16:58:30,313 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
+2023-11-27 16:58:30,324 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-27 16:58:30,329 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-27 16:58:30,331 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-27 16:58:30,339 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-27 16:58:30,358 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-27 16:58:30,358 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-27 16:58:30,378 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-11-27 16:58:30,434 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-11-27 16:58:30,520 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.3.10.Final starting
+2023-11-27 16:58:30,523 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
+2023-11-27 16:58:30,567 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2023-11-27 16:58:30,672 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2023-11-27 16:58:30,687 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-27 16:58:30,716 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-27 16:58:30,724 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-27 16:58:30,782 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-11-27 16:58:31,190 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-27 16:58:31,208 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-11-27 16:58:31,212 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-11-27 16:58:31,212 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-11-27 16:58:31,247 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 16:58:31,247 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "webapp-ejb.war" (runtime-name: "webapp-ejb.war")
+2023-11-27 16:58:31,255 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\deployments
+2023-11-27 16:58:31,264 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2023-11-27 16:58:31,265 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-11-27 16:58:31,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-11-27 16:58:31,288 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.27.Final
+2023-11-27 16:58:31,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-27 16:58:31,369 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-27 16:58:31,492 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-27 16:58:31,528 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2023-11-27 16:58:31,562 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-27 16:58:31,767 WARN  [org.jboss.modules.define] (MSC service thread 1-6) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:58:31,772 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 16:58:31,860 WARN  [org.jboss.modules.define] (MSC service thread 1-6) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:58:31,935 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webapp-ejb.war
+2023-11-27 16:58:31,958 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 8.0.1.Final
+2023-11-27 16:58:32,134 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 16:58:32,134 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "webapp-ejb.war"' are as follows:
+
+	java:global/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:app/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:global/webapp-ejb/ServiceEjb
+	java:app/webapp-ejb/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 16:58:32,241 WARN  [org.jboss.modules.define] (MSC service thread 1-6) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:58:32,247 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 16:58:32,323 WARN  [org.jboss.modules.define] (MSC service thread 1-6) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 16:58:32,325 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.ScriptFreeTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 16:58:32,338 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 5.1.2 (Final)
+2023-11-27 16:58:32,711 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 5) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 16:58:32,719 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 5) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 16:58:32,730 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 2) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 16:58:32,732 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 2) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.ScriptFreeTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 16:58:33,197 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/webapp-ejb' for server 'default-server'
+2023-11-27 16:58:33,243 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "appejb-remote.jar" (runtime-name : "appejb-remote.jar")
+2023-11-27 16:58:33,243 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-ejb.war" (runtime-name : "webapp-ejb.war")
+2023-11-27 16:58:33,291 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-27 16:58:33,297 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-27 16:58:33,297 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-27 16:58:33,299 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 5386ms - Started 886 of 1105 services (324 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-27 16:58:51,929 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment appejb-remote.jar (runtime-name: appejb-remote.jar) in 55ms
+2023-11-27 16:58:51,932 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 16:58:51,956 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 16:58:51,973 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 16:58:52,139 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "appejb-remote.jar" with deployment "appejb-remote.jar"
+2023-11-27 17:03:24,118 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2023-11-27 17:03:24,657 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2023-11-27 17:03:24,667 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-27 17:03:24,775 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
+2023-11-27 17:03:24,776 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.2
+	java.io.tmpdir = C:\Users\userg\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\Java\jdk-17.0.2\bin\java.exe;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\xampp\php;C:\mingw64\bin;C:\Program Files (x86)\BaseX\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.2.3;C:\Program Files\Git\cmd;C:\Users\userg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\bin;C:\Users\userg\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\userg\AppData\Roaming\npm;C:\Users\userg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\userg\apache-maven-3.9.5\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.2+8-86
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.2
+	java.version.date = 2022-01-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.2+8-86
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	jboss.host.name = arkaitxiki
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = arkaitxiki
+	jboss.qualified.host.name = arkaitxiki
+	jboss.server.base.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data
+	jboss.server.log.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log
+	jboss.server.name = arkaitxiki
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar -mp C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = ES
+	user.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\bin
+	user.home = C:\Users\userg
+	user.language = es
+	user.name = userg
+	user.script = 
+	user.timezone = Europe/Madrid
+	user.variant = 
+2023-11-27 17:03:24,779 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties 
+2023-11-27 17:03:25,499 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
+2023-11-27 17:03:26,160 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 2) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-27 17:03:26,282 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-27 17:03:26,305 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.11.Final
+2023-11-27 17:03:26,313 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.11.Final
+2023-11-27 17:03:26,404 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
+2023-11-27 17:03:26,405 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-27 17:03:26,408 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-27 17:03:26,444 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-11-27 17:03:26,444 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-27 17:03:26,467 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-27 17:03:26,467 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-27 17:03:26,469 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-11-27 17:03:26,476 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-27 17:03:26,485 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-27 17:03:26,504 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-27 17:03:26,626 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.10.Final starting
+2023-11-27 17:03:26,638 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
+2023-11-27 17:03:26,665 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2023-11-27 17:03:26,672 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-11-27 17:03:26,699 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-27 17:03:26,818 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-27 17:03:26,824 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-27 17:03:26,875 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-11-27 17:03:27,427 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-27 17:03:27,440 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-11-27 17:03:27,443 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-11-27 17:03:27,443 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-11-27 17:03:27,490 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\deployments
+2023-11-27 17:03:27,492 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "webapp-ejb.war" (runtime-name: "webapp-ejb.war")
+2023-11-27 17:03:27,492 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 17:03:27,512 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.27.Final
+2023-11-27 17:03:27,534 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-11-27 17:03:27,537 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-11-27 17:03:27,540 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-11-27 17:03:27,615 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-27 17:03:27,617 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-27 17:03:27,804 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-27 17:03:27,859 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2023-11-27 17:03:27,877 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-27 17:03:28,092 WARN  [org.jboss.modules.define] (MSC service thread 1-3) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:03:28,107 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 17:03:28,229 WARN  [org.jboss.modules.define] (MSC service thread 1-3) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:03:28,252 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment webapp-ejb.war
+2023-11-27 17:03:28,302 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.1.Final
+2023-11-27 17:03:28,478 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:03:28,478 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "webapp-ejb.war"' are as follows:
+
+	java:global/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:app/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:global/webapp-ejb/ServiceEjb
+	java:app/webapp-ejb/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:03:28,595 WARN  [org.jboss.modules.define] (MSC service thread 1-4) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:03:28,597 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 17:03:28,674 WARN  [org.jboss.modules.define] (MSC service thread 1-4) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:03:28,676 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.ScriptFreeTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 17:03:28,691 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.2 (Final)
+2023-11-27 17:03:29,015 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 8) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 17:03:29,019 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 8) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 17:03:29,031 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 1) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 17:03:29,036 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.ScriptFreeTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 17:03:29,520 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/webapp-ejb' for server 'default-server'
+2023-11-27 17:03:29,587 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "appejb-remote.jar" (runtime-name : "appejb-remote.jar")
+2023-11-27 17:03:29,588 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-ejb.war" (runtime-name : "webapp-ejb.war")
+2023-11-27 17:03:29,632 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-27 17:03:29,637 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-27 17:03:29,637 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-27 17:03:29,639 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 5837ms - Started 886 of 1105 services (324 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-27 17:03:36,315 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment appejb-remote.jar (runtime-name: appejb-remote.jar) in 42ms
+2023-11-27 17:03:36,319 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 17:03:36,364 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 17:03:36,381 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:03:36,550 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "appejb-remote.jar" with deployment "appejb-remote.jar"
+2023-11-27 17:32:27,006 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2023-11-27 17:32:27,502 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2023-11-27 17:32:27,510 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-11-27 17:32:27,608 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
+2023-11-27 17:32:27,610 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.2
+	java.io.tmpdir = C:\Users\userg\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\Java\jdk-17.0.2\bin\java.exe;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Intel\Intel(R) Memory and Storage Tool\;C:\xampp\php;C:\mingw64\bin;C:\Program Files (x86)\BaseX\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.2.3;C:\Program Files\Git\cmd;C:\Users\userg\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\bin;C:\Users\userg\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\userg\AppData\Roaming\npm;C:\Users\userg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\userg\apache-maven-3.9.5\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.2+8-86
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.2
+	java.version.date = 2022-01-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.2+8-86
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	jboss.host.name = arkaitxiki
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = arkaitxiki
+	jboss.qualified.host.name = arkaitxiki
+	jboss.server.base.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data
+	jboss.server.log.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log
+	jboss.server.name = arkaitxiki
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\jboss-modules.jar -mp C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = ES
+	user.dir = C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\bin
+	user.home = C:\Users\userg
+	user.language = es
+	user.name = userg
+	user.script = 
+	user.timezone = Europe/Madrid
+	user.variant = 
+2023-11-27 17:32:27,611 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration/logging.properties 
+2023-11-27 17:32:28,302 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
+2023-11-27 17:32:28,895 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-11-27 17:32:28,974 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-11-27 17:32:28,994 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.11.Final
+2023-11-27 17:32:29,003 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.11.Final
+2023-11-27 17:32:29,041 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
+2023-11-27 17:32:29,043 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-11-27 17:32:29,048 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-11-27 17:32:29,051 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-11-27 17:32:29,052 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-11-27 17:32:29,053 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-11-27 17:32:29,057 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-11-27 17:32:29,086 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-11-27 17:32:29,094 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-11-27 17:32:29,098 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-11-27 17:32:29,101 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-11-27 17:32:29,190 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
+2023-11-27 17:32:29,241 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.3.10.Final starting
+2023-11-27 17:32:29,257 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2023-11-27 17:32:29,315 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-11-27 17:32:29,316 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2023-11-27 17:32:29,438 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-11-27 17:32:29,495 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-11-27 17:32:29,568 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-11-27 17:32:29,926 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-11-27 17:32:29,930 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-11-27 17:32:29,930 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-11-27 17:32:29,961 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\deployments
+2023-11-27 17:32:29,962 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "webapp-ejb.war" (runtime-name: "webapp-ejb.war")
+2023-11-27 17:32:29,962 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 17:32:29,984 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.27.Final
+2023-11-27 17:32:30,045 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-11-27 17:32:30,046 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-11-27 17:32:30,051 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2023-11-27 17:32:30,052 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2023-11-27 17:32:30,110 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-11-27 17:32:30,112 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-11-27 17:32:30,243 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2023-11-27 17:32:30,258 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-11-27 17:32:30,325 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-11-27 17:32:30,479 WARN  [org.jboss.modules.define] (MSC service thread 1-3) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:32:30,511 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 17:32:30,563 WARN  [org.jboss.modules.define] (MSC service thread 1-3) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:32:30,589 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment webapp-ejb.war
+2023-11-27 17:32:30,630 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.1.Final
+2023-11-27 17:32:30,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "webapp-ejb.war"' are as follows:
+
+	java:global/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:app/webapp-ejb/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbLocal
+	java:global/webapp-ejb/ServiceEjb
+	java:app/webapp-ejb/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:32:30,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:32:30,945 WARN  [org.jboss.modules.define] (MSC service thread 1-8) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:32:30,947 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 17:32:31,039 WARN  [org.jboss.modules.define] (MSC service thread 1-8) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@30.0.0.Final//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@22.0.1.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:171)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-11-27 17:32:31,041 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.ScriptFreeTLV due to an exception (enable DEBUG log level to see the cause)
+2023-11-27 17:32:31,059 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 5.1.2 (Final)
+2023-11-27 17:32:31,433 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 7) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 17:32:31,437 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 7) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 17:32:31,449 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 8) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.webapp-ejb.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1090)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:351)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:482)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:276)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:765)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:192)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at org.jboss.as.weld@30.0.0.Final//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-11-27 17:32:31,450 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 8) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.ScriptFreeTLV because of underlying class loading error: Type Failed to link javax.servlet.jsp.jstl.tlv.ScriptFreeTLV (Module "deployment.webapp-ejb.war" from Service Module Loader): javax.servlet.jsp.tagext.TagLibraryValidator not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2023-11-27 17:32:32,052 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/webapp-ejb' for server 'default-server'
+2023-11-27 17:32:32,138 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "appejb-remote.jar" (runtime-name : "appejb-remote.jar")
+2023-11-27 17:32:32,138 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "webapp-ejb.war" (runtime-name : "webapp-ejb.war")
+2023-11-27 17:32:32,185 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-11-27 17:32:32,190 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-11-27 17:32:32,190 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-11-27 17:32:32,192 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 5580ms - Started 886 of 1105 services (324 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-11-27 17:32:40,610 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\8d\65efbbbcab8e502108b428c8b43c55d0d2246b\content
+2023-11-27 17:32:40,659 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment appejb-remote.jar (runtime-name: appejb-remote.jar) in 45ms
+2023-11-27 17:32:40,664 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 17:32:40,692 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 17:32:40,710 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:32:40,903 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "appejb-remote.jar" with deployment "appejb-remote.jar"
+2023-11-27 17:32:40,907 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\e3\a6080011fa391003d8062a30ac92b8014e6ae5\content
+2023-11-27 17:33:24,429 INFO  [org.wildfly.naming] (default task-1) WildFly Naming version 2.0.1.Final
+2023-11-27 17:36:32,428 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\5b\a9a65033be5cdea8dca88f59b3607985ca225a\content
+2023-11-27 17:36:32,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment appejb-remote.jar (runtime-name: appejb-remote.jar) in 15ms
+2023-11-27 17:36:32,454 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 17:36:32,522 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 17:36:32,555 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:36:32,766 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "appejb-remote.jar" with deployment "appejb-remote.jar"
+2023-11-27 17:36:32,769 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\8d\65efbbbcab8e502108b428c8b43c55d0d2246b\content
+2023-11-27 17:38:24,643 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\bb\502f092409438c8c62f552959340d111aceb9a\content
+2023-11-27 17:38:24,659 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment appejb-remote.jar (runtime-name: appejb-remote.jar) in 14ms
+2023-11-27 17:38:24,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "appejb-remote.jar" (runtime-name: "appejb-remote.jar")
+2023-11-27 17:38:24,699 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment appejb-remote.jar
+2023-11-27 17:38:24,716 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ServiceEjb' in deployment unit 'deployment "appejb-remote.jar"' are as follows:
+
+	java:global/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:app/appejb-remote/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:module/ServiceEjb!org.aartaraz.webapp.ejb.service.ServiceEjbRemote
+	java:global/appejb-remote/ServiceEjb
+	java:app/appejb-remote/ServiceEjb
+	java:module/ServiceEjb
+
+2023-11-27 17:38:24,878 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "appejb-remote.jar" with deployment "appejb-remote.jar"
+2023-11-27 17:38:24,883 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\userg\eclipse-workspace\JavaEE\wildfly-30.0.0.Final\wildfly-30.0.0.Final\standalone\data\content\5b\a9a65033be5cdea8dca88f59b3607985ca225a\content

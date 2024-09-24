@@ -1,0 +1,657 @@
+08-Nov-2023 10:32:46.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.15
+08-Nov-2023 10:32:46.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Oct 11 2023 23:38:40 UTC
+08-Nov-2023 10:32:46.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.15.0
+08-Nov-2023 10:32:46.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+08-Nov-2023 10:32:46.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Nov-2023 10:32:46.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Nov-2023 10:32:46.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17.0.2
+08-Nov-2023 10:32:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.2+8-86
+08-Nov-2023 10:32:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Nov-2023 10:32:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15
+08-Nov-2023 10:32:46.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15
+08-Nov-2023 10:32:46.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\conf\logging.properties
+08-Nov-2023 10:32:46.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2023 10:32:46.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2023 10:32:46.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2023 10:32:46.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Nov-2023 10:32:46.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Nov-2023 10:32:46.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Nov-2023 10:32:46.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Nov-2023 10:32:46.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Nov-2023 10:32:46.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15
+08-Nov-2023 10:32:46.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15
+08-Nov-2023 10:32:46.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\temp
+08-Nov-2023 10:32:46.867 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.6] con la versión APR [1.7.4].
+08-Nov-2023 10:32:46.897 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.11 19 Sep 2023]
+08-Nov-2023 10:32:47.212 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Nov-2023 10:32:47.240 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [839] milliseconds
+08-Nov-2023 10:32:47.318 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Nov-2023 10:32:47.318 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+08-Nov-2023 10:32:47.355 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-1.0-SNAPSHOT.war] de la aplicación web
+08-Nov-2023 10:32:48.342 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:48.451 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-1.0-SNAPSHOT.war] has finished in [1.093] ms
+08-Nov-2023 10:32:48.453 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-cookie.war] de la aplicación web
+08-Nov-2023 10:32:49.430 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:49.435 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-cookie.war] has finished in [982] ms
+08-Nov-2023 10:32:49.442 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-form.war] de la aplicación web
+08-Nov-2023 10:32:50.153 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:50.156 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-form.war] has finished in [715] ms
+08-Nov-2023 10:32:50.163 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-headers.war] de la aplicación web
+08-Nov-2023 10:32:50.969 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:50.981 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-headers.war] has finished in [816] ms
+08-Nov-2023 10:32:50.986 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 10:32:52.493 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:52.576 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.590] ms
+08-Nov-2023 10:32:52.579 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp.war] de la aplicación web
+08-Nov-2023 10:32:53.003 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:53.006 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp.war] has finished in [427] ms
+08-Nov-2023 10:32:53.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\docs] de la aplicación web
+08-Nov-2023 10:32:53.368 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:53.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\docs] has finished in [364] ms
+08-Nov-2023 10:32:53.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\examples] de la aplicación web
+08-Nov-2023 10:32:54.083 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:54.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\examples] has finished in [789] ms
+08-Nov-2023 10:32:54.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\host-manager] de la aplicación web
+08-Nov-2023 10:32:54.549 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:54.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\host-manager] has finished in [395] ms
+08-Nov-2023 10:32:54.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\manager] de la aplicación web
+08-Nov-2023 10:32:54.968 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:54.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\manager] has finished in [416] ms
+08-Nov-2023 10:32:54.973 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\ROOT] de la aplicación web
+08-Nov-2023 10:32:55.324 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:32:55.328 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\ROOT] has finished in [354] ms
+08-Nov-2023 10:32:55.331 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2023 10:32:55.376 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8134] milliseconds
+08-Nov-2023 10:33:05.137 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 10:33:05.188 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 10:33:06.888 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:33:06.944 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.756] ms
+08-Nov-2023 10:43:18.873 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 10:43:18.914 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 10:43:20.506 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:43:20.571 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.656] ms
+08-Nov-2023 10:54:31.964 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 10:54:31.999 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 10:54:33.499 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:54:33.554 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.556] ms
+08-Nov-2023 10:58:34.436 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 10:58:34.479 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 10:58:36.037 INFO [http-nio-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 10:58:36.109 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.631] ms
+08-Nov-2023 11:00:01.685 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 11:00:01.731 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 11:00:03.275 INFO [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 11:00:03.350 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.619] ms
+08-Nov-2023 12:54:37.760 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 12:54:37.820 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 12:54:40.084 INFO [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 12:54:40.158 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.337] ms
+08-Nov-2023 12:56:28.473 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 12:56:28.516 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 12:56:29.896 INFO [http-nio-8080-exec-64] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 12:56:29.947 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.432] ms
+08-Nov-2023 13:12:01.091 INFO [http-nio-8080-exec-71] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 13:12:01.129 INFO [http-nio-8080-exec-71] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 13:12:02.100 INFO [http-nio-8080-exec-71] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 13:12:02.116 INFO [http-nio-8080-exec-71] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [987] ms
+08-Nov-2023 13:14:01.186 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 13:14:01.217 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 13:14:02.396 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 13:14:02.418 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.201] ms
+08-Nov-2023 13:15:00.149 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 13:15:00.184 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 13:15:01.452 INFO [http-nio-8080-exec-88] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 13:15:01.479 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.296] ms
+08-Nov-2023 13:15:39.492 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 13:15:39.524 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 13:15:40.550 INFO [http-nio-8080-exec-91] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 13:15:40.572 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.047] ms
+08-Nov-2023 13:16:32.407 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 13:16:32.438 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 13:16:33.632 INFO [http-nio-8080-exec-82] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 13:16:33.658 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.219] ms
+08-Nov-2023 15:44:12.386 INFO [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 15:44:12.437 INFO [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 15:44:13.601 INFO [http-nio-8080-exec-107] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 15:44:13.626 INFO [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.189] ms
+08-Nov-2023 16:27:20.478 INFO [http-nio-8080-exec-114] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 16:27:20.551 INFO [http-nio-8080-exec-114] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 16:27:21.786 INFO [http-nio-8080-exec-114] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 16:27:21.806 INFO [http-nio-8080-exec-114] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.255] ms
+08-Nov-2023 17:32:42.497 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 17:32:42.613 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 17:32:44.449 INFO [http-nio-8080-exec-124] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 17:32:44.540 INFO [http-nio-8080-exec-124] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 17:32:44.587 INFO [http-nio-8080-exec-124] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 17:32:44.829 WARN [http-nio-8080-exec-124] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-Nov-2023 17:32:44.834 INFO [http-nio-8080-exec-124] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.220] ms
+08-Nov-2023 17:33:15.572 INFO [http-nio-8080-exec-132] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 17:33:15.620 INFO [http-nio-8080-exec-132] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 17:33:17.194 INFO [http-nio-8080-exec-132] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 17:33:17.234 INFO [http-nio-8080-exec-132] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 17:33:17.274 INFO [http-nio-8080-exec-132] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 17:33:17.353 WARN [http-nio-8080-exec-132] org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize WELD-ENV-000028: Weld initialization skipped - no bean archive found
+08-Nov-2023 17:33:17.357 INFO [http-nio-8080-exec-132] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [1.736] ms
+08-Nov-2023 17:35:31.555 INFO [http-nio-8080-exec-139] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 17:35:31.601 INFO [http-nio-8080-exec-139] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 17:35:33.569 INFO [http-nio-8080-exec-139] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 17:35:33.611 INFO [http-nio-8080-exec-139] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 17:35:33.659 INFO [http-nio-8080-exec-139] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 17:35:34.095 SEVERE [http-nio-8080-exec-139] org.apache.catalina.startup.HostConfig.deployWAR Error durante el despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:975)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:495)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at jdk.internal.reflect.GeneratedMethodAccessor93.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1466)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:802)
+		at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:428)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/webapp-session]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 43 more
+	Caused by: java.lang.NoClassDefFoundError: jakarta/inject/Provider
+		at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+		at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+		at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:800)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1317)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1165)
+		at org.jboss.weld.bootstrap.BeanDeploymentModule.<init>(BeanDeploymentModule.java:63)
+		at org.jboss.weld.bootstrap.BeanDeploymentModules.<init>(BeanDeploymentModules.java:41)
+		at org.jboss.weld.bootstrap.WeldStartup.addImplementationServices(WeldStartup.java:369)
+		at org.jboss.weld.bootstrap.WeldStartup.startContainer(WeldStartup.java:231)
+		at org.jboss.weld.bootstrap.WeldBootstrap.startContainer(WeldBootstrap.java:72)
+		at org.jboss.weld.bootstrap.WeldBootstrap.startContainer(WeldBootstrap.java:67)
+		at org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize(WeldServletLifecycle.java:182)
+		at org.jboss.weld.environment.servlet.EnhancedListener.onStartup(EnhancedListener.java:62)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4850)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 44 more
+	Caused by: java.lang.ClassNotFoundException: jakarta.inject.Provider
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1353)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1165)
+		... 61 more
+08-Nov-2023 17:35:34.097 INFO [http-nio-8080-exec-139] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.496] ms
+08-Nov-2023 17:38:39.219 INFO [http-nio-8080-exec-148] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 17:38:39.259 INFO [http-nio-8080-exec-148] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 17:38:40.659 INFO [http-nio-8080-exec-148] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 17:38:40.693 INFO [http-nio-8080-exec-148] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 17:38:40.732 INFO [http-nio-8080-exec-148] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 17:38:41.055 INFO [http-nio-8080-exec-148] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 17:38:41.443 INFO [http-nio-8080-exec-148] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 17:38:41.687 INFO [http-nio-8080-exec-148] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.427] ms
+08-Nov-2023 18:07:44.144 INFO [http-nio-8080-exec-161] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 18:07:44.205 INFO [http-nio-8080-exec-161] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 18:07:45.712 INFO [http-nio-8080-exec-161] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 18:07:45.752 INFO [http-nio-8080-exec-161] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 18:07:45.791 INFO [http-nio-8080-exec-161] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 18:07:46.096 INFO [http-nio-8080-exec-161] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 18:07:46.420 INFO [http-nio-8080-exec-161] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 18:07:46.722 INFO [http-nio-8080-exec-161] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.517] ms
+08-Nov-2023 18:17:09.854 INFO [http-nio-8080-exec-171] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 18:17:09.913 INFO [http-nio-8080-exec-171] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 18:17:11.544 INFO [http-nio-8080-exec-171] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 18:17:11.586 INFO [http-nio-8080-exec-171] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 18:17:11.624 INFO [http-nio-8080-exec-171] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 18:17:11.891 INFO [http-nio-8080-exec-171] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 18:17:12.259 INFO [http-nio-8080-exec-171] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 18:17:12.518 INFO [http-nio-8080-exec-171] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.605] ms
+08-Nov-2023 18:35:46.907 INFO [http-nio-8080-exec-177] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 18:35:47.003 INFO [http-nio-8080-exec-177] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 18:35:48.417 INFO [http-nio-8080-exec-177] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 18:35:48.451 INFO [http-nio-8080-exec-177] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 18:35:48.477 INFO [http-nio-8080-exec-177] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 18:35:48.850 INFO [http-nio-8080-exec-177] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 18:35:49.292 INFO [http-nio-8080-exec-177] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 18:35:49.518 INFO [http-nio-8080-exec-177] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.515] ms
+08-Nov-2023 18:47:26.837 INFO [http-nio-8080-exec-192] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 18:47:26.915 INFO [http-nio-8080-exec-192] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 18:47:28.388 INFO [http-nio-8080-exec-192] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 18:47:28.431 INFO [http-nio-8080-exec-192] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 18:47:28.469 INFO [http-nio-8080-exec-192] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 18:47:28.741 INFO [http-nio-8080-exec-192] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 18:47:29.160 INFO [http-nio-8080-exec-192] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 18:47:29.421 INFO [http-nio-8080-exec-192] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.506] ms
+08-Nov-2023 18:48:06.673 INFO [http-nio-8080-exec-186] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 18:48:06.730 INFO [http-nio-8080-exec-186] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 18:48:08.366 INFO [http-nio-8080-exec-186] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 18:48:08.412 INFO [http-nio-8080-exec-186] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 18:48:08.470 INFO [http-nio-8080-exec-186] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 18:48:08.726 INFO [http-nio-8080-exec-186] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 18:48:09.029 INFO [http-nio-8080-exec-186] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 18:48:09.322 INFO [http-nio-8080-exec-186] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.592] ms
+08-Nov-2023 19:01:54.749 INFO [http-nio-8080-exec-201] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 19:01:54.816 INFO [http-nio-8080-exec-201] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 19:01:56.520 INFO [http-nio-8080-exec-201] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 19:01:56.557 INFO [http-nio-8080-exec-201] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 19:01:56.599 INFO [http-nio-8080-exec-201] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 19:01:56.896 INFO [http-nio-8080-exec-201] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 19:01:57.211 INFO [http-nio-8080-exec-201] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 19:01:57.442 INFO [http-nio-8080-exec-201] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.626] ms
+08-Nov-2023 19:08:09.141 INFO [http-nio-8080-exec-214] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 19:08:09.238 INFO [http-nio-8080-exec-214] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 19:08:10.897 INFO [http-nio-8080-exec-214] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 19:08:10.939 INFO [http-nio-8080-exec-214] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 19:08:10.981 INFO [http-nio-8080-exec-214] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 19:08:11.273 INFO [http-nio-8080-exec-214] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 19:08:11.669 INFO [http-nio-8080-exec-214] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 19:08:11.894 INFO [http-nio-8080-exec-214] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.656] ms
+08-Nov-2023 19:11:37.366 INFO [http-nio-8080-exec-225] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 19:11:37.429 INFO [http-nio-8080-exec-225] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 19:11:39.114 INFO [http-nio-8080-exec-225] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 19:11:39.163 INFO [http-nio-8080-exec-225] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 19:11:39.199 INFO [http-nio-8080-exec-225] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 19:11:39.460 INFO [http-nio-8080-exec-225] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 19:11:39.770 INFO [http-nio-8080-exec-225] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 19:11:39.985 INFO [http-nio-8080-exec-225] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.555] ms
+08-Nov-2023 19:16:49.005 INFO [http-nio-8080-exec-236] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 19:16:49.076 INFO [http-nio-8080-exec-236] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 19:16:50.710 INFO [http-nio-8080-exec-236] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 19:16:50.772 INFO [http-nio-8080-exec-236] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 19:16:50.801 INFO [http-nio-8080-exec-236] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 19:16:51.107 INFO [http-nio-8080-exec-236] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 19:16:51.393 INFO [http-nio-8080-exec-236] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 19:16:51.622 INFO [http-nio-8080-exec-236] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.546] ms
+08-Nov-2023 19:18:04.016 INFO [http-nio-8080-exec-240] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 19:18:04.073 INFO [http-nio-8080-exec-240] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 19:18:05.752 INFO [http-nio-8080-exec-240] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 19:18:05.801 INFO [http-nio-8080-exec-240] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 19:18:05.850 INFO [http-nio-8080-exec-240] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 19:18:06.134 INFO [http-nio-8080-exec-240] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 19:18:06.500 INFO [http-nio-8080-exec-240] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 19:18:06.802 INFO [http-nio-8080-exec-240] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.729] ms
+08-Nov-2023 19:18:58.158 INFO [http-nio-8080-exec-242] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 19:18:58.214 INFO [http-nio-8080-exec-242] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 19:18:59.766 INFO [http-nio-8080-exec-242] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 19:18:59.794 INFO [http-nio-8080-exec-242] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 19:18:59.819 INFO [http-nio-8080-exec-242] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 19:19:00.032 INFO [http-nio-8080-exec-242] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 19:19:00.294 INFO [http-nio-8080-exec-242] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 19:19:00.500 INFO [http-nio-8080-exec-242] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.286] ms
+08-Nov-2023 20:41:36.668 INFO [http-nio-8080-exec-251] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 20:41:36.744 INFO [http-nio-8080-exec-251] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 20:41:38.506 INFO [http-nio-8080-exec-251] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 20:41:38.556 INFO [http-nio-8080-exec-251] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 20:41:38.594 INFO [http-nio-8080-exec-251] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 20:41:38.862 INFO [http-nio-8080-exec-251] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 20:41:39.137 INFO [http-nio-8080-exec-251] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 20:41:39.304 SEVERE [http-nio-8080-exec-251] org.apache.catalina.startup.HostConfig.deployWAR Error durante el despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:975)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:495)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at jdk.internal.reflect.GeneratedMethodAccessor93.invoke(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1466)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:802)
+		at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:428)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/webapp-session]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 43 more
+	Caused by: org.jboss.weld.exceptions.DeploymentException: Exception List with 4 exceptions:
+Exception 0 :
+org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.ProductoFormServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.ProductoFormServlet.service(ProductoFormServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception 1 :
+org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.ProductoServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.ProductoServlet.service(ProductoServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception 2 :
+org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.ProductoEliminarServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.ProductoEliminarServlet.service(ProductoEliminarServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception 3 :
+org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.AgregarCarroServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.AgregarCarroServlet.service(AgregarCarroServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+		at org.jboss.weld.bootstrap.ConcurrentValidator.validateBeans(ConcurrentValidator.java:72)
+		at org.jboss.weld.bootstrap.Validator.validateDeployment(Validator.java:487)
+		at org.jboss.weld.bootstrap.WeldStartup.validateBeans(WeldStartup.java:501)
+		at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:93)
+		at org.jboss.weld.environment.servlet.WeldServletLifecycle.initialize(WeldServletLifecycle.java:236)
+		at org.jboss.weld.environment.servlet.EnhancedListener.onStartup(EnhancedListener.java:62)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4850)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 44 more
+		Suppressed: org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.ProductoFormServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.ProductoFormServlet.service(ProductoFormServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+			at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+			at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+			at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+			at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+			at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+			at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+			... 1 more
+		Suppressed: org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.ProductoServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.ProductoServlet.service(ProductoServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+			at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+			at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+			at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+			at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+			at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+			at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+			... 1 more
+		Suppressed: org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.ProductoEliminarServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.ProductoEliminarServlet.service(ProductoEliminarServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+			at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+			at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+			at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+			at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+			at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+			at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+			... 1 more
+		Suppressed: org.jboss.weld.exceptions.DeploymentException: WELD-001409: Ambiguous dependencies for type ProductoService with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private org.aartaraz.apiservlet.webapp.headers.controllers.AgregarCarroServlet.service
+  at org.aartaraz.apiservlet.webapp.headers.controllers.AgregarCarroServlet.service(AgregarCarroServlet.java:0)
+  Possible dependencies: 
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceImpl] with qualifiers [@Any @Default],
+  - Managed Bean [class org.aartaraz.apiservlet.webapp.headers.services.ProductoServiceJdbcImpl] with qualifiers [@Any @Default]
+
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:386)
+			at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+			at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+			at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+			at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+			at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+			at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+			at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+			at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+			at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+			... 1 more
+08-Nov-2023 20:41:39.310 INFO [http-nio-8080-exec-251] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.566] ms
+08-Nov-2023 20:48:08.621 INFO [http-nio-8080-exec-260] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 20:48:08.629 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.630 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.631 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.631 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.632 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.632 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.632 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.633 WARNING [http-nio-8080-exec-260] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapp-session] appears to have started a thread named [weld-worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+08-Nov-2023 20:48:08.671 INFO [http-nio-8080-exec-260] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 20:48:10.473 INFO [http-nio-8080-exec-260] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 20:48:10.522 INFO [http-nio-8080-exec-260] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 20:48:10.556 INFO [http-nio-8080-exec-260] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 20:48:10.886 INFO [http-nio-8080-exec-260] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 20:48:11.318 INFO [http-nio-8080-exec-260] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 20:48:11.591 INFO [http-nio-8080-exec-260] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.919] ms
+08-Nov-2023 20:51:10.887 INFO [http-nio-8080-exec-269] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp-session]
+08-Nov-2023 20:51:10.948 INFO [http-nio-8080-exec-269] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] de la aplicación web
+08-Nov-2023 20:51:12.709 INFO [http-nio-8080-exec-269] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Nov-2023 20:51:12.751 INFO [http-nio-8080-exec-269] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+08-Nov-2023 20:51:12.792 INFO [http-nio-8080-exec-269] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 4.0.1 (SP1)
+08-Nov-2023 20:51:13.081 INFO [http-nio-8080-exec-269] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08-Nov-2023 20:51:13.401 INFO [http-nio-8080-exec-269] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+08-Nov-2023 20:51:13.720 INFO [http-nio-8080-exec-269] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\userg\eclipse-workspace\JavaEE\apache-tomcat-10.1.15-windows-x64\apache-tomcat-10.1.15\webapps\webapp-session.war] has finished in [2.773] ms

@@ -1,0 +1,13 @@
+org\aartaraz\webapp\jsf3\controlers\ProductoController.class
+org\aartaraz\webapp\jsf3\repositories\CategoriaRepositoryImpl.class
+org\aartaraz\webapp\jsf3\repositories\CrudRepository.class
+org\aartaraz\webapp\jsf3\ProducerResources.class
+org\aartaraz\webapp\jsf3\entities\Producto.class
+org\aartaraz\webapp\jsf3\services\ProductoServiceImpl.class
+org\aartaraz\webapp\jsf3\converters\CategoriaConverter.class
+org\aartaraz\webapp\jsf3\services\ProductoService.class
+org\aartaraz\webapp\jsf3\repositories\ProductoRepositoryImpl.class
+org\aartaraz\webapp\jsf3\controlers\LenguajeController.class
+org\aartaraz\webapp\jsf3\ProducerEntityMananger.class
+org\aartaraz\webapp\jsf3\entities\Categoria.class
+org\aartaraz\webapp\jsf3\repositories\ProductoRepository.class

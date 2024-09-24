@@ -1,0 +1,4 @@
+org\aartaraz\webapp\ejb\service\ServiceEjb.class
+org\aartaraz\webapp\ejb\models\Producto.class
+org\aartaraz\webapp\ejb\controllers\EjemploServlet.class
+org\aartaraz\webapp\ejb\service\ServiceEjbLocal.class

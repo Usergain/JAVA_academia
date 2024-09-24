@@ -1,0 +1,6 @@
+org\aartaraz\webapp\jaxws\services\CursoServicioWs.class
+org\aartaraz\webapp\jaxws\services\CursoServicioWsImpl.class
+org\aartaraz\webapp\jaxws\models\Curso.class
+org\aartaraz\webapp\jaxws\repositories\CursoRepository.class
+org\aartaraz\webapp\jaxws\ProducerEntityManager.class
+org\aartaraz\webapp\jaxws\repositories\CursoRepositoryImpl.class

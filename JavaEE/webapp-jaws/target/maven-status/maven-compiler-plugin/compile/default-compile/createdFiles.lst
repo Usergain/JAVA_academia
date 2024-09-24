@@ -1,0 +1,3 @@
+org\aartaraz\webapp\jaxws\services\ServicioWs.class
+org\aartaraz\webapp\jaxws\models\Curso.class
+org\aartaraz\webapp\jaxws\services\ServicioWsImpl.class

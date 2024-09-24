@@ -1,0 +1,2 @@
+Esto es una prueba para ver si me funciona la lectura y escritura
+de un archivo en otro
